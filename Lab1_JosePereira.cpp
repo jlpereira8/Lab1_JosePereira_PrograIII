@@ -98,7 +98,17 @@ using std::endl;
 			}else if(num>=10000&&num<=99999){
 			  double r=num/1000;
 			  double fin=(round(r))*1000;
-			  cout<<fin<<endl;
+			  double num2=num;
+			  int t=0;
+			     while(num>10){
+                               num=num/10;
+			       t++;
+			     }
+			  cout<<"log ("<<num2<<") = ";
+			     for(int i=0;i<t;i++){
+			        cout<<"log ("<<"10";
+			     }
+			     cout<<"log ("<<num<<")";
 			}else if(num>=100000&&num<=999999){
 		          double r=num/10000;
 			  double fin=(round(r))*100000;
