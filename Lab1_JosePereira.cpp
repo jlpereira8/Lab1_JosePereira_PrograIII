@@ -77,9 +77,20 @@ using std::endl;
 		        if(num<=99){
 			
 			}else if(num>=100&&num<=999){
+			   double num2=num;
 			   double r=num/10;
 			   double fin=(round(r))*10;
 			   cout<<fin<<endl;
+			   int t=0;
+			   while(num>10){
+				num=num/10;
+				t++;
+			   }
+			   cout<<"log ("<<num2<<") = ";
+			       for(int i=0;i<t;i++){
+                                  cout<<"log ("<<"10";
+			       }
+			       cout<<"log ("<<num<<")";
 			}else if(num>=1000&&num<=9999){
 			  double num2=num;
 			  double r=num/100;
